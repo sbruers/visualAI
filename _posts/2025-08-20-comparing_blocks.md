@@ -21,6 +21,27 @@ The figure compares the following blocks:
 
 The visualization uses **color coding** for convolution types, activation functions, pooling, and other operations. Skip connections, concatenations, and additions are clearly indicated to show how information flows through each block.
 
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+</head>
 <body>
-<img src="{{site.url}}{{site.baseurl}}/assets/images/blocks_with_skips.png">
+<div class="imgbox">
+    <img class="center-fit" src='{{site.url}}{{site.baseurl}}/assets/images/blocks_with_skips.png'>
+</div>
 </body>
+</html>
