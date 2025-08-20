@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: "VisualAI"
+email: sbruers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Portfolio of my AI perigrinations: making complex deep learning concepts
+  accessible through visualizations
+url: https://sbruers.github.io
+baseurl: /visualAI
 twitter_username: username
-github_username: username
+github_username: sbruers
 minimal_mistakes_skin: default
 search: true
 
@@ -58,9 +59,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Sasskia Bruers Freyssinet"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "Researcher in AI and visual neuroscience specializing in efficient deep learning models for computer vision."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -73,7 +74,13 @@ author:
       url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/curieuxcerveau/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/s-bruers-freyssinet/"
+    - label: "Substack"
+      icon: "fas fa-fw fa-envelope"
+      url: "https://curieuxcerveau.substack.com/"
 
 footer:
   links:
@@ -85,7 +92,13 @@ footer:
       url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/curieuxcerveau/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/s-bruers-freyssinet/"
+    - label: "Substack"
+      icon: "fas fa-fw fa-envelope"
+      url: "https://curieuxcerveau.substack.com/"
 
 defaults:
   # _posts
@@ -113,3 +126,20 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+navigation: 
+- title: "Home"
+  url: "/"
+- title: "Projects"
+  url: "/projects/"
+- title: "Blog"
+  url: "/blog/"
+- title: "About"
+  url: "/about/"
+- title: "Contact"
+  url: "/contact/"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
