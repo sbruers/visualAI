@@ -21,5 +21,5 @@ The figure compares the following blocks:
 
 The visualization uses **color coding** for convolution types, activation functions, pooling, and other operations. Skip connections, concatenations, and additions are clearly indicated to show how information flows through each block.
 
-![CNN Block Comparison](/assets/images/blocks_with_skips.png)
+![CNN Block Comparison]({{site.baseurl}}/assets/images/blocks_with_skips.png)
 
