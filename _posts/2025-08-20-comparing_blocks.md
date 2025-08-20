@@ -2,14 +2,13 @@
 title: "CNN Block Architecture Comparison"
 layout: single
 categories: [CNN]
-image: /assets/images/blocks_with_skips.png
+tags:
+  - CNN
+  - architecture
+image: 
+  path: /assets/images/blocks_with_skips.png
+  caption: "Visual comparison of CNN blocks"
 description: "A visual comparison of popular convolutional blocks used in CNN architectures, highlighting the different types of building blocks (convolutions, skip connections, and activation functions)."
-permalink: /projects/cnn-block-comparison/
-excerpt: "Visual comparison of CNN blocks."
-header:
-  image: /assets/images/blocks_with_skips.png
-  caption: "CNN block visualizations"
-
 ---
 
 This project provides a **visual overview of various convolutional neural network (CNN) blocks**. 
