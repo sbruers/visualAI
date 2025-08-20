@@ -23,7 +23,7 @@ The figure compares the following blocks:
 The visualization uses **color coding** for convolution types, activation functions, pooling, and other operations. Skip connections, concatenations, and additions are clearly indicated to show how information flows through each block.
 
 
-{% include figure image_path="{{site.url}}{{site.baseurl}}/assets/images/blocks_with_skips.png"
+<img src="{{site.url}}{{site.baseurl}}/assets/images/blocks_with_skips.png"
    alt="CNN Block Comparison"
    caption="Comparison of CNN building blocks"
-   max_width="900px" %}
+   max_width="600px">
